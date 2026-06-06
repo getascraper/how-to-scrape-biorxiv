@@ -1,0 +1,33 @@
+{
+  "name": "how-to-scrape-biorxiv",
+  "version": "1.0.0",
+  "description": "How to scrape bioRxiv and medRxiv preprints in Node.js using the Apify bioRxiv + medRxiv Scraper for RAG actor",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "biorxiv",
+    "medrxiv",
+    "preprints",
+    "scraper",
+    "web-scraping",
+    "data-extraction",
+    "rag",
+    "apify",
+    "apify-actor",
+    "nodejs",
+    "biomedical",
+    "research"
+  ],
+  "author": "getascraper",
+  "license": "MIT",
+  "dependencies": {
+    "apify-client": "^2.10.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

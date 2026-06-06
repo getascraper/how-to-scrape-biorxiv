@@ -1,0 +1,19 @@
+[
+  {
+    "doi": "10.1101/2024.03.15.585219",
+    "server": "biorxiv",
+    "version": "1",
+    "title": "A concise title here",
+    "abstract": "The abstract as returned by the bioRxiv API.",
+    "authors": ["Smith, J.", "Doe, J."],
+    "category": "neuroscience",
+    "publication_date": "2024-03-15",
+    "preprint_url": "https://www.biorxiv.org/content/10.1101/2024.03.15.585219v1",
+    "license": "cc_by",
+    "source": "full_text",
+    "chunks": [
+      { "idx": 0, "text": "...", "tokens": 487 },
+      { "idx": 1, "text": "...", "tokens": 512 }
+    ]
+  }
+]
