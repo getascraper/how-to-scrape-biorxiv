@@ -2,7 +2,7 @@
 
 # bioRxiv Scraper | Preprint Data Extraction API | Apify Actor
 
-[![Apify Actor](https://img.shields.io/badge/Apify-Actor-ff6b35?style=for-the-badge&logo=apify&logoColor=white)](https://apify.com/devanshlive/biorxiv-medrxiv-rag-extractor)
+[![Apify Actor](https://img.shields.io/badge/Apify-Actor-ff6b35?style=for-the-badge&logo=apify&logoColor=white)](https://apify.com/getascraper/biorxiv-medrxiv-rag-extractor)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Made with Love](https://img.shields.io/badge/Made%20with-Love-e31b23?style=for-the-badge)](https://github.com/getascraper)
 [![Open Source](https://img.shields.io/badge/Open%20Source-Yes-blue?style=for-the-badge)](https://github.com/getascraper/how-to-scrape-biorxiv)
@@ -27,7 +27,7 @@ import 'dotenv/config';
 
 const client = new ApifyClient({ token: process.env.APIFY_TOKEN });
 
-const run = await client.actor('devanshlive/biorxiv-medrxiv-rag-extractor').call({
+const run = await client.actor('getascraper/biorxiv-medrxiv-rag-extractor').call({
   servers: ['biorxiv', 'medrxiv'],
   category: 'neuroscience',
   dateFrom: '2024-01-01',
@@ -169,7 +169,7 @@ Yes. Pass `['biorxiv', 'medrxiv']` to the `servers` field.
 
 ## Support
 
-Open an issue in the [Apify Console](https://console.apify.com/actors/devanshlive~biorxiv-medrxiv-rag-extractor/issues).
+Open an issue in the [Apify Console](https://console.apify.com/actors/getascraper~biorxiv-medrxiv-rag-extractor/issues).
 
 ---
 
@@ -183,4 +183,4 @@ Open an issue in the [Apify Console](https://console.apify.com/actors/devanshliv
 
 **Ready to start extracting?**
 
-[Open the bioRxiv + medRxiv Scraper on Apify](https://apify.com/devanshlive/biorxiv-medrxiv-rag-extractor)
+[Open the bioRxiv + medRxiv Scraper on Apify](https://apify.com/getascraper/biorxiv-medrxiv-rag-extractor)

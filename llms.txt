@@ -11,7 +11,7 @@
 
 ## Key Pages
 - README: https://github.com/getascraper/how-to-scrape-biorxiv/blob/main/README.md
-- Apify Store: https://apify.com/devanshlive/biorxiv-medrxiv-rag-extractor
+- Apify Store: https://apify.com/getascraper/biorxiv-medrxiv-rag-extractor
 
 ## API Usage
 - Node.js SDK: https://github.com/getascraper/how-to-scrape-biorxiv/blob/main/README.md
